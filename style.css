@@ -165,3 +165,10 @@ tr.total td{border-bottom:0;border-top:2px solid var(--deep);font:700 1.15rem va
 .trust-item p { margin:4px 0 0; }
 .trust-item a { color:#b8f0c9; }
 .tick { flex:none; width:44px; height:44px; border-radius:12px; background:#e3f5ec; color:#0e7a5f; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:1.2rem; }
+
+.step p:not(.num){
+  text-align:justify;
+  text-justify:inter-word;
+  hyphens:auto;
+  -webkit-hyphens:auto;
+}
